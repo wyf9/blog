@@ -1,7 +1,7 @@
 +++
 title = 'My First Post'
 date = 2023-12-01T22:40:25+08:00
-draft = true
+draft = false
 +++
 
 https://gohugo.io/getting-started/quick-start/
