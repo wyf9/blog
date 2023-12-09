@@ -1,7 +1,8 @@
 baseURL: https://wyf9.top/
 languageCode: zh-cn
 title: wyf9s Blog
-theme: ananke
+paginate: 10
+theme: "PaperMod"
 defaultContentLanguage: zh
 copyright: Copyright wyf9. All Rights Reserved. 
 disablePathToLower: true
@@ -9,3 +10,5 @@ enableEmoji: true
 enableGitInfo: true
 enableInlineShortcodes: true
 hasCJKLanguage: true
+assets:
+  favicon: "https://ghsrc.wyf9.top/favicon.ico"
