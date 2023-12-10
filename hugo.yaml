@@ -1,14 +1,53 @@
-baseURL: https://wyf9.top/
+baseURL: https://blog.wyf9.top/
 languageCode: zh-cn
 title: wyf9s Blog
+env: production
 paginate: 10
 theme: "PaperMod"
 defaultContentLanguage: zh
-copyright: Copyright wyf9. All Rights Reserved. 
+copyright: Copyright &copy; 2023 wyf9. All Rights Reserved. 
 disablePathToLower: true
 enableEmoji: true
 enableGitInfo: true
 enableInlineShortcodes: true
 hasCJKLanguage: true
-assets:
-  favicon: "https://ghsrc.wyf9.top/favicon.ico"
+refLinksErrorLevel: "WARNING"
+timeout: "60s"
+timeZone: "Asia/Shanghai"
+
+params:
+  assets:
+    favicon: "/favicon.ico"
+  # defaultTheme: light
+  # defaultTheme: dark
+  defaultTheme: auto # to switch between dark or light according to browser theme
+  disableThemeToggle: false
+  profileMode:
+    enabled: true
+    #title: "<Title>" # optional default will be site title
+    subtitle: "This is subtitle"
+    imageUrl: "/favicon.ico" # optional
+    imageTitle: "image" # optional
+    imageWidth: 64 # custom size
+    imageHeight: 64 # custom size
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/wyf9"
+      - name: Team
+        url: "https://github.com/wyf01239"
+#    socialIcons: # optional
+#      - name: "github"
+#        title: "GitHub2"
+#        url: "github.com"
+#      - name: "<platform 2>"
+#        url: "<link2>"
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  editPost:
+    URL: "https://github.com/wyf9/blog/content"
+    Text: "Edit on GItHub" # edit text
+    appendFilePath: true # to append file path to Edit link
+  ShowCodeCopyButtons: true
+  author: ["wyf9"]
