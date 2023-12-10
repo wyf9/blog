@@ -25,7 +25,7 @@ params:
   profileMode:
     enabled: true
     #title: "<Title>" # optional default will be site title
-    subtitle: "This is subtitle"
+    subtitle: "Welcome!"
     imageUrl: "https://ghsrc.wyf9.top/favicon.png" # optional
     imageTitle: "image" # optional
     imageWidth: 64 # custom size
