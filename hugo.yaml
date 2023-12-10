@@ -17,7 +17,7 @@ timeZone: "Asia/Shanghai"
 
 params:
   assets:
-    favicon: "/favicon.ico"
+    favicon: "https://ghsrc.wyf9.top/favicon.ico"
   # defaultTheme: light
   # defaultTheme: dark
   defaultTheme: auto # to switch between dark or light according to browser theme
@@ -26,7 +26,7 @@ params:
     enabled: true
     #title: "<Title>" # optional default will be site title
     subtitle: "This is subtitle"
-    imageUrl: "/favicon.ico" # optional
+    imageUrl: "https://ghsrc.wyf9.top/favicon.png" # optional
     imageTitle: "image" # optional
     imageWidth: 64 # custom size
     imageHeight: 64 # custom size
