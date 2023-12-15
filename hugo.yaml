@@ -31,8 +31,8 @@ params:
     imageWidth: 64 # custom size
     imageHeight: 64 # custom size
     buttons:
-      - name: Archive
-        url: "/archive"
+      #- name: Archive
+      #  url: "/archive"
       - name: Github
         url: "https://github.com/wyf9"
       - name: Team
